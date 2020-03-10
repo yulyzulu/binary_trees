@@ -1,6 +1,6 @@
 # 0x1D. C - Binary trees
 
-
+ ![alt text](https://www.geeksforgeeks.org/wp-content/uploads/binary-tree-to-DLL.png) 
 # **Contents**
 
 -  #### 0. New node
