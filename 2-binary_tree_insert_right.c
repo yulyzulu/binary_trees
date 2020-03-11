@@ -31,11 +31,9 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 		temp = parent->right;
 		parent->right = new_node;
 		new_node->parent = parent;
-		new_node->left = temp->left;
+		new_node->left = NULL;
 		new_node->n = value;
 		new_node->right = temp;
-		temp->left = NULL;
-		temp->right = NULL;
 		temp->parent = new_node;
 	}
 	return (new_node);
